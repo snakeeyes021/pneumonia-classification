@@ -7,9 +7,9 @@
 ## Overview
 
 <img src="https://images.theconversation.com/files/364468/original/file-20201020-14-1ag42p9.jpg?ixlib=rb-1.1.0&rect=8%2C0%2C5982%2C3709&q=20&auto=format&w=320&fit=clip&dpr=2&usm=12&cs=strip" width=30%>
-'ICD 10-M Diagnosis Code J15. 9
+'ICD 10-M Diagnosis Code J15. 9'
 
-" Pneumonia is a form of acute respiratory infection that affects the lungs. The lungs are made up of small sacs called alveoli, which fill with air when a healthy person breathes. When an individual has pneumonia, the alveoli are filled with pus and fluid, which makes breathing painful and limits oxygen intake. " - WHO
+" Pneumonia is a form of acute respiratory infection that affects the lungs. The lungs are made up of small sacs called alveoli, which fill with air when a healthy person breathes. When an individual has pneumonia, the alveoli are filled with pus and fluid, which makes breathing painful and limits oxygen intake. " - [WHO](https://www.who.int/news-room/fact-sheets/detail/pneumonia)
 
 According to the World Health Organization and UNICEF, pneumonia kills more children than any other infectious disease, disproportionately affecting low-income countries. In 2019, pneumonia killed over 740,000 children under the age of 5 or roughly about 1,900 children a day. This accounts for 14% of all deaths of children under five years old with almost all these deaths being preventable. 
 
