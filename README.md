@@ -1,18 +1,21 @@
 # **Pneumonia Classification**
 
-**Authors:** _Anthony, Hoang, Madoria, Matthew_
-
 <img src="https://i.imgur.com/jZqpV51.png" width=80%>
+
+**Authors:** _Anthony, Hoang, Madoria, Matthew_
 
 ## Overview
 
 <img src="https://images.theconversation.com/files/364468/original/file-20201020-14-1ag42p9.jpg?ixlib=rb-1.1.0&rect=8%2C0%2C5982%2C3709&q=20&auto=format&w=320&fit=clip&dpr=2&usm=12&cs=strip" width=30%>
+'ICD 10-M Diagnosis Code J15. 9'
 
-Pneumonia is an infection in one or both of the lungs that affects the air sacs (alveoli). According to [WebMD](https://www.webmd.com/lung/understanding-pneumonia-basics): "It happens when an infection causes the air sacs in your lungs (your doctor will call them alveoli) to fill with fluid or pus. That can make it hard for you to breathe in enough oxygen to reach your bloodstream." Anyone of any age can get this infection and it can be caused by viruses, bacteria, and fungi. If the pneumonia is caused by bacteria or a virus, it can become contagious. Unfortunately, infants and elderly patients over age 65 are at a higher risk. 
+" Pneumonia is a form of acute respiratory infection that affects the lungs. The lungs are made up of small sacs called alveoli, which fill with air when a healthy person breathes. When an individual has pneumonia, the alveoli are filled with pus and fluid, which makes breathing painful and limits oxygen intake. " - [WHO](https://www.who.int/news-room/fact-sheets/detail/pneumonia)
+
+According to the World Health Organization and UNICEF, pneumonia kills more children than any other infectious disease, disproportionately affecting low-income countries. In 2019, pneumonia killed over 740,000 children under the age of 5 or roughly about 1,900 children a day. This accounts for 14% of all deaths of children under five years old with almost all these deaths being preventable. 
 
 ## Business Problem
 
-The amount of images being produced has been disproportional to the amount of qualified specialists who can read them.  To relieve some of the burden on the medical system, we have been hired to build a model that can classify whether a given patient has pneumonia using chest x-ray images. 
+UNICEF and the WHO have made a joint effort in tackling childhood pneumonia The increasing unmet demand for trained health experts to meet population medical needs has lead them to explore technology that could help reduce the burden on the already stressed medical system. They have hired our group for data science and deep learning recommendations for this problem. 
 
 Metrics we care about: </br>
 - Accuracy </br>
@@ -50,10 +53,10 @@ Please review our full analysis in our [Jupyter Notebook]() or our [presentation
 
 For any additional questions, please contact:
 
-Anthony: </br>
-Hoang: </br>
-Madoria: </br>
-Matthew: </br>
+Anthony: https://www.linkedin.com/in/anthonywarren11037/</br>
+Hoang: https://www.linkedin.com/in/hoang-nguyen-0ba498207/</br>
+Madoria: https://www.linkedin.com/in/madoria-thomas/</br>
+Matthew: https://www.linkedin.com/in/matthew-samson-0a1b86165/</br>
 
 ## Repository Structure
 
