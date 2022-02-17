@@ -41,7 +41,7 @@ The dataset contains pediatric lung X-Rays from Guangzhou Women and Children’s
 ## Recommendations
 
 **Access:** In areas where specialized professionals are not readily available, we can train community health workers to use technologies such as our model to for pneumonia diagnosis.</br>
-**Assistance:** Historically, false negatives were the focal point for pneumonia diagnosis. With the emerging threat of antibiotic resistance, false positives can no longer be ignored. Our model takes into consideration of false positives.</br> 
+**Assistance:** With the increasing amount of data and images being produced, our model can assist current trained experts to validate and speed up image readings.</br> 
 **Antimicrobial Resistance:** Historically, false negatives had a much higher weight of importance  and was the focal point for pneumonia diagnosis. With the emerging threat of antibiotic resistance, false positives can no longer be ignored. Our model takes into consideration of false positives. 
 
 ***
