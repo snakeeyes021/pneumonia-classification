@@ -32,20 +32,25 @@ The dataset contains pediatric lung X-Rays from Guangzhou Women and Children’s
 ## Methods
 
 
-
-
 ***
 ## Results
 
 
 
 ***
-## Conclusion
+## Recommendations
+
+**Access:** In areas where specialized professionals are not readily available, we can train community health workers to use technologies such as our model to for pneumonia diagnosis.</br>
+**Assistance:** With the increasing amount of data and images being produced, our model can assist current trained experts to validate and speed up image readings.</br> 
+**Antimicrobial Resistance:** Historically, false negatives had a much higher weight of importance  and was the focal point for pneumonia diagnosis. With the emerging threat of antibiotic resistance, false positives can no longer be ignored. Our model takes into consideration of false positives. 
 
 ***
 ## Next Steps
 Further analyses could result with additional insights to further improve our recommendations:
 
+- **Processing Power and Time:** Ran into GPU issues with running more complicated models. Also need more time to run them.</br>
+- **More Data:** Train on more data and expand to adult chest X -rays. We could also expand the model to diagnose between bacteria vs. viral pneumonia.</br>
+- **Medical Experts:** Consult medical experts to better understand the disease classification and best practices
 
 ***
 ## For More Information
