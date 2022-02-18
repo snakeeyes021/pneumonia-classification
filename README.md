@@ -48,9 +48,9 @@ The dataset contains pediatric lung X-Rays from Guangzhou Women and Children’s
 ## Next Steps
 Further analyses could result with additional insights to further improve our recommendations:
 
-- **Processing Power and Time:** Ran into GPU issues with running more complicated models. Also need more time to run them.</br>
-- **More Data:** Train on more data and expand to adult chest X -rays. We could also expand the model to diagnose between bacteria vs. viral pneumonia.</br>
-- **Medical Experts:** Consult medical experts to better understand the disease classification and best practices
+- **Expand The Dataset:** Expand to include adult chest x-rays. Also get data from different regions, and perhaps x-rays using different equipment.</br>
+- **Fine Tune Model:** Fine tune disease classification to be able to distinguish between viral vs bacteria pneumonia.</br>
+- **Classify Other Diseases:** Train the model to classify other diseases such as Covid
 
 ***
 ## For More Information
