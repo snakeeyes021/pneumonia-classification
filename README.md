@@ -48,12 +48,19 @@ Our methods involve training several neural networks, including:
 ![Image](data/Best_Model_Architecture.PNG)
 
 ***
-## Conclusion
+## Recommendations
+
+**Access:** In areas where specialized professionals are not readily available, we can train community health workers to use technologies such as our model to for pneumonia diagnosis.</br>
+**Assistance:** With the increasing amount of data and images being produced, our model can assist current trained experts to validate and speed up image readings.</br> 
+**Antimicrobial Resistance:** Historically, false negatives had a much higher weight of importance  and was the focal point for pneumonia diagnosis. With the emerging threat of antibiotic resistance, false positives can no longer be ignored. Our model takes into consideration of false positives. 
 
 ***
 ## Next Steps
 Further analyses could result with additional insights to further improve our recommendations:
 
+- **Expand The Dataset:** Expand to include adult chest x-rays. Also get data from different regions, and perhaps x-rays using different equipment.</br>
+- **Fine Tune Model:** Fine tune disease classification to be able to distinguish between viral vs bacteria pneumonia.</br>
+- **Classify Other Diseases:** Train the model to classify other diseases such as Covid
 
 ***
 ## For More Information
