@@ -31,13 +31,21 @@ The dataset contains pediatric lung X-Rays from Guangzhou Women and Children’s
 ***
 ## Methods
 
+Our methods involve training several neural networks, including:
 
-
+- Convolutional Neural Networks (CNN)
+- Multilayer Perceptron
+- Residual Network 152 (ResNet152)
+- DenseNet121
 
 ***
 ## Results
 
+![Image](data/Results_Accuracy.PNG)
 
+![Image](data/Best_Model_Scores.PNG)
+
+![Image](data/Best_Model_Architecture.PNG)
 
 ***
 ## Conclusion
