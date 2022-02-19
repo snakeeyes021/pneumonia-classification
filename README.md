@@ -4,12 +4,15 @@
 
 **Authors:** _Anthony Warren, Hoang Nguyen, Madoria Thomas, Matthew Samson_
 
+(Note: This is a hypothetical presentation, as if commissioned by UNICEF and the WHO.)
+
 ## Overview
 
 <img src="https://images.theconversation.com/files/364468/original/file-20201020-14-1ag42p9.jpg?ixlib=rb-1.1.0&rect=8%2C0%2C5982%2C3709&q=20&auto=format&w=320&fit=clip&dpr=2&usm=12&cs=strip" width=30%>
+
 'ICD 10-M Diagnosis Code J15. 9'
 
-" Pneumonia is a form of acute respiratory infection that affects the lungs. The lungs are made up of small sacs called alveoli, which fill with air when a healthy person breathes. When an individual has pneumonia, the alveoli are filled with pus and fluid, which makes breathing painful and limits oxygen intake. " - [WHO](https://www.who.int/news-room/fact-sheets/detail/pneumonia)
+"Pneumonia is a form of acute respiratory infection that affects the lungs. The lungs are made up of small sacs called alveoli, which fill with air when a healthy person breathes. When an individual has pneumonia, the alveoli are filled with pus and fluid, which makes breathing painful and limits oxygen intake." - [WHO](https://www.who.int/news-room/fact-sheets/detail/pneumonia)
 
 According to the World Health Organization and UNICEF, pneumonia kills more children than any other infectious disease, disproportionately affecting low-income countries. In 2019, pneumonia killed over 740,000 children under the age of 5 or roughly about 1,900 children a day. This accounts for 14% of all deaths of children under five years old with almost all these deaths being preventable. 
 
@@ -17,9 +20,12 @@ According to the World Health Organization and UNICEF, pneumonia kills more chil
 
 UNICEF and the WHO have made a joint effort in tackling childhood pneumonia The increasing unmet demand for trained health experts to meet population medical needs has lead them to explore technology that could help reduce the burden on the already stressed medical system. They have hired our group for data science and deep learning recommendations for this problem. 
 
-Metrics we care about: </br>
-- Accuracy </br>
-- False Negatives: This matters because we don't want to tell patients they are not sick when they actually are </br>
+About metrics: </br>
+- Accuracy: We use accuracy only at the beginning of our modeling. Once we have a model that achieves a percentage in the mid to high 80s, we look at more granular metrics like recall, precision, and the like.
+- Ideally, we would like to use a metric that accounts for either high false positives OR high false negatives OR both (we explain why just below). The F1 metric would be perfect for this. However, also ideally, we would like to be able to compare our results against human radiologists. Results for human radiologists turn out to actually be fairly difficult to acquire. What we have indeed been able to acquire though is true positive and false positive rates (common metrics used in the medical community, there called sensitivity and specificity), so we'll compare our models to humans using one or both of these metrics.</br>
+
+About false predictions:
+- False Negatives: This matters because we don't want to tell patients they are not sick when they actually are. This could result in grave illness or death. </br>
 - False Positives: This matters because the treatment used for bacterial pneumonia is anti-biotics. Antibacterial resistance is becoming a global threat. More and more research is being published on it. Overprescribing antibiotics to patients that don't need them is a big part of this problem that we want to avoid. 
 
 ## Data
@@ -52,9 +58,9 @@ Our methods involve training several neural networks, including:
 ## Next Steps
 Further analyses could result with additional insights to further improve our recommendations:
 
-- **Expand The Dataset:** Expand to include adult chest x-rays. Also get data from different regions, and perhaps x-rays using different equipment.</br>
-- **Fine Tune Model:** Fine tune disease classification to be able to distinguish between viral vs bacteria pneumonia.</br>
-- **Classify Other Diseases:** Train the model to classify other diseases such as Covid
+**Expand The Dataset:** Expand to include adult chest x-rays. Also get data from different regions, and perhaps x-rays using different equipment.</br>
+**Fine Tune Model:** Fine tune disease classification to be able to distinguish between viral vs bacteria pneumonia.</br>
+**Classify Other Diseases:** Train the model to classify other diseases such as Covid
 
 ## For More Information
 Please review our full analysis in our [Jupyter Notebook]() or our [presentation]().
