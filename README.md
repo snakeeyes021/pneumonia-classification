@@ -2,7 +2,7 @@
 
 <img src="https://i.imgur.com/jZqpV51.png" width=80%>
 
-**Authors:** _Anthony, Hoang, Madoria, Matthew_
+**Authors:** _Anthony Warren, Hoang Nguyen, Madoria Thomas, Matthew Samson_
 
 ## Overview
 
@@ -22,39 +22,33 @@ Metrics we care about: </br>
 - False Negatives: This matters because we don't want to tell patients they are not sick when they actually are </br>
 - False Positives: This matters because the treatment used for bacterial pneumonia is anti-biotics. Antibacterial resistance is becoming a global threat. More and more research is being published on it. Overprescribing antibiotics to patients that don't need them is a big part of this problem that we want to avoid. 
 
-***
 ## Data
 
 The dataset contains pediatric lung X-Rays from Guangzhou Women and Children’s Medical Center in Guangzhou, China. This dataset consists of 3 different folders of train, test, and val sets with each folder containing another 2 seperate folders of pneumonia vs normal lung x-ray images. We are using the [Kaggle](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia) version of this dataset that has 5856 images. 
 
 
-***
 ## Methods
 
 Our methods involve training several neural networks, including:
 
-- Convolutional Neural Networks (CNN)
+- Generic Convolutional Neural Networks
 - Multilayer Perceptron
-- Residual Network 152 (ResNet152)
+- ResNet152
 - DenseNet121
 
-***
+
 ## Results
 
 ![Image](data/Results_Accuracy.PNG)
 
 ![Image](data/Best_Model_Scores.PNG)
 
-![Image](data/Best_Model_Architecture.PNG)
-
-***
 ## Recommendations
 
 **Access:** In areas where specialized professionals are not readily available, we can train community health workers to use technologies such as our model to for pneumonia diagnosis.</br>
 **Assistance:** With the increasing amount of data and images being produced, our model can assist current trained experts to validate and speed up image readings.</br> 
-**Antimicrobial Resistance:** Historically, false negatives had a much higher weight of importance  and was the focal point for pneumonia diagnosis. With the emerging threat of antibiotic resistance, false positives can no longer be ignored. Our model takes into consideration of false positives. 
+**Antimicrobial Resistance:** Historically, false negatives had a much higher weight of importance and were the focal point for pneumonia diagnosis. With the emerging threat of antibiotic resistance, false positives can no longer be ignored. Our choice of model takes into consideration the rate and number of false positives. 
 
-***
 ## Next Steps
 Further analyses could result with additional insights to further improve our recommendations:
 
@@ -62,16 +56,8 @@ Further analyses could result with additional insights to further improve our re
 - **Fine Tune Model:** Fine tune disease classification to be able to distinguish between viral vs bacteria pneumonia.</br>
 - **Classify Other Diseases:** Train the model to classify other diseases such as Covid
 
-***
 ## For More Information
 Please review our full analysis in our [Jupyter Notebook]() or our [presentation]().
-
-For any additional questions, please contact:
-
-Anthony: https://www.linkedin.com/in/anthonywarren11037/</br>
-Hoang: https://www.linkedin.com/in/hoang-nguyen-0ba498207/</br>
-Madoria: https://www.linkedin.com/in/madoria-thomas/</br>
-Matthew: https://www.linkedin.com/in/matthew-samson-0a1b86165/</br>
 
 ## Repository Structure
 
