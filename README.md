@@ -21,7 +21,7 @@ According to the World Health Organization and UNICEF, pneumonia kills more chil
 UNICEF and the WHO have made a joint effort in tackling childhood pneumonia The increasing unmet demand for trained health experts to meet population medical needs has lead them to explore technology that could help reduce the burden on the already stressed medical system. They have hired our group for data science and deep learning recommendations for this problem. 
 
 About metrics: </br>
-- Accuracy: We use accuracy only at the beginning of our modeling. Once we have a model that achieves a percentage in the mid to high 80s, we look at more granular metrics like recall, precision, and the like.
+- Accuracy: We use accuracy only at the beginning of our modeling. Once we have a model that achieves a percentage in the mid to high 80s, we additionally look at more granular metrics like recall, precision, and the like.
 - Ideally, we would like to use a metric that accounts for high false positives or high false negatives or both (oftentimes, one is more important than the other; we explain why we care about both just below). The F1 metric would be perfect for this. However, also ideally, we would like to be able to compare our results against human radiologists. Results for human radiologists turn out to actually be fairly difficult to acquire. What we have indeed been able to acquire though is true positive and false positive rates (common metrics used in the medical community, there called sensitivity and specificity), so we'll compare our models to humans using one or both of these metrics.</br>
 
 About false predictions:
