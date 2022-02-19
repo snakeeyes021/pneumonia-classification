@@ -56,11 +56,11 @@ Our methods involve training several neural networks, including:
 **Antimicrobial Resistance:** Historically, false negatives had a much higher weight of importance and were the focal point for pneumonia diagnosis. With the emerging threat of antibiotic resistance, false positives can no longer be ignored. Our choice of model takes into consideration the rate and number of false positives. 
 
 ## Next Steps
-Further analyses could result with additional insights to further improve our recommendations:
+Given the dataset at hand, our model performs its task reasonaby well. However, that task is rather narrow, and it is likely tuned to a specific age group and potentially to x-rays produced with a certain level of equipment quality. Given the opportunity to continue the project, we would like to:
 
 **Expand The Dataset:** Expand to include adult chest x-rays. Also get data from different regions, and perhaps x-rays using different equipment.</br>
-**Fine Tune Model:** Fine tune disease classification to be able to distinguish between viral vs bacteria pneumonia.</br>
-**Classify Other Diseases:** Train the model to classify other diseases such as Covid
+**Fine Tune Model:** Fine tune disease classification to be able to distinguish between viral, bacterial, and other types of pneumonia.</br>
+**Classify Other Diseases:** Train the model to classify other diseases and conditions, such as COVID-19.
 
 ## For More Information
 Please review our full analysis in our [Jupyter Notebook]() or our [presentation]().
