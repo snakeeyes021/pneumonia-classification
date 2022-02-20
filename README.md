@@ -45,7 +45,7 @@ Our methods involve training several neural networks, including:
 
 ## Results
 
-![Image](data/Results_Accuracy.PNG)
+![Image](data/Results_Accuracy.png)
 
 ![Image](data/Best_Model_Scores.PNG)
 
