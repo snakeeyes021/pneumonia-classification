@@ -18,7 +18,7 @@ According to the World Health Organization and UNICEF, pneumonia kills more chil
 
 ## Business Problem
 
-UNICEF and the WHO have made a joint effort in tackling childhood pneumonia The increasing unmet demand for trained health experts to meet population medical needs has lead them to explore technology that could help reduce the burden on the already stressed medical system. They have hired our group for data science and deep learning recommendations for this problem. 
+UNICEF and the WHO have made a joint effort in tackling childhood pneumonia. The increasing unmet demand for trained health experts to meet population medical needs has lead them to explore technology that could help reduce the burden on the already stressed medical system. They have hired our group for data science and deep learning recommendations for this problem. 
 
 About metrics: </br>
 - Accuracy: We use accuracy only at the beginning of our modeling. Once we have a model that achieves a percentage in the mid to high 80s, we additionally look at more granular metrics like recall, precision, and the like.
