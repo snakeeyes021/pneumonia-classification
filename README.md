@@ -87,6 +87,10 @@ Please review our full analysis in our [Jupyter Notebook](https://github.com/sna
 |   |   |   |   ├── PNEUMONIA
 |   |   |   |   |   ├── ...
 
+├── graphs
+|   ├── 10.png
+|   ├── 8.png
+
 ├── logs
 |   ├── fit
 |   |   ├── ...
