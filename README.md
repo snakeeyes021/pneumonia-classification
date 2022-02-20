@@ -45,9 +45,9 @@ Our methods involve training several neural networks, including:
 
 ## Results
 
-![Image](data/Results_Accuracy.png)
+![Image](graphs/8.png)
 
-![Image](data/Best_Model_Scores.PNG)
+![Image](graphs/10.png)
 
 ## Recommendations
 
@@ -63,14 +63,52 @@ Given the dataset at hand, our model performs its task reasonaby well. However, 
 **Classify Other Diseases:** Train the model to classify other diseases and conditions, such as COVID-19.
 
 ## For More Information
-Please review our full analysis in our [Jupyter Notebook]() or our [presentation]().
+Please review our full analysis in our [Jupyter Notebook](https://github.com/snakeeyes021/pneumonia-classification/blob/main/Combined%20Notebook.ipynb) or our [presentation](https://github.com/snakeeyes021/pneumonia-classification/raw/main/Pneumonia%20Classificaiton.pdf).
 
 ## Repository Structure
 
 ```
-├── README.md                           
-├── Main.ipynb   
-├── Presentation.pdf   
-├── data                                
-└── images 
+├── data
+|   ├── kaggle dataset
+|   |   ├── chest_xray
+|   |   |   ├── test
+|   |   |   |   ├── NORMAL
+|   |   |   |   |   ├── ...
+|   |   |   |   ├── PNEUMONIA
+|   |   |   |   |   ├── ...
+|   |   |   ├── train
+|   |   |   |   ├── NORMAL
+|   |   |   |   |   ├── ...
+|   |   |   |   ├── PNEUMONIA
+|   |   |   |   |   ├── ...
+|   |   |   ├── val
+|   |   |   |   ├── NORMAL
+|   |   |   |   |   ├── ...
+|   |   |   |   ├── PNEUMONIA
+|   |   |   |   |   ├── ...
+
+├── logs
+|   ├── fit
+|   |   ├── ...
+
+├── models
+|   ├── README.md
+
+├── personal notebooks
+|   ├── Copy_of_Madoria_seed.ipynb
+|   ├── Madoria-seed.ipynb
+|   ├── class-weights-cnn.ipynb
+|   ├── confusion matrices.ipynb
+|   ├── confusion matrices2.ipynb
+|   ├── densenet.ipynb
+|   ├── earlier-model-scoring.ipynb
+|   ├── first_good_cnn.ipynb
+|   ├── hoang_model_tune.ipynb 
+|   ├── initial-model-visualizations.ipynb
+|   ├── matt-seed-notebook.ipynb
+
+├── .gitignore                           
+├── Combined Notebook.ipynb   
+├── Pneumonia Classification.pdf                                   
+└── README.md
 ```
