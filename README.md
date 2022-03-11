@@ -1,4 +1,4 @@
-# **Pneumonia Classification**
+# **Pneumonia X-Ray Classification**
 
 <img src="https://i.imgur.com/jZqpV51.png" width=80%>
 
